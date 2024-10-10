@@ -12,7 +12,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { mockTasks, Task } from '../page'
+import { mockTasks, Task } from '@/app/mockData'
 import DetailsLoading from '@/components/details-loading'
 
 export default function TaskDetailsPage({ params }: { params: { id: string } }) {
